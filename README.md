@@ -1,4 +1,4 @@
-# DJI Mavic 3 Mapping
+# DJI Mapping
 A tool to convert QGroundControl generated .kml files into DJI Fly ready .kmz files.
 
 # Changelog
@@ -13,7 +13,7 @@ A tool to convert QGroundControl generated .kml files into DJI Fly ready .kmz fi
 2. Create a mission using QGroundControl:
    1. To get an accurate Ground Resolution (pixel/centimeter) ratio and Photo Interval reading, use these settings:
    2. In the **Mission Start** tab, under **Vehicle Info**, set the desired **Hover Speed** (it has to match your **Waypoint Mission Speed** that has to be set in the DJI Fly App)
-   3. In the **Survey** tab and in the **Camera** tab, use these settings for the Main Camera (Hasselblad):
+   3. (Only applicable to Mavic 3) In the **Survey** tab and in the **Camera** tab, use these settings for the Main Camera (Hasselblad):
       1. **Sensor**: 17.3 * 13 mm
       2. **Image**: 5290 * 3956 px
       3. **Focal Length**: 12.3 mm
